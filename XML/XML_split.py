@@ -54,6 +54,7 @@ def split_xml_file(input_file_path, target_size):
         print(f"File {output_filename} created.")
 
 input_folder = r"C:\Users\Loctimize\Downloads\Test"
-target_size = 2000000  # Set your desired approximate target size in bytes, 1 megabyte = 1 000 000 bytes
+target_size = 2000000  # Set your desired approximate target file
+# size in bytes, 1 megabyte = 1 000 000 bytes
 
 split_xml(input_folder, target_size)
